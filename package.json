@@ -11,8 +11,7 @@
   },
   "homepage": "https://github.com/LilianKorir/Covid19Charts#readme",
   "scripts": {
-    "start": "DEBUG=\"${DEBUG:=covid19chart}\" node ./bin/server",
-
+    "start": "node app.js",
     "lint": "npx eslint ."
   },
   "dependencies": {
